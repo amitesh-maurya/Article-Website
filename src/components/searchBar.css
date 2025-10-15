@@ -1,0 +1,36 @@
+.search-bar {
+    position: relative;
+    max-width: 400px;
+    background-color: aliceblue;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: aliceblue;
+  }
+  
+  .search-results {
+    margin-top: 10px;
+  }
+  
+  .search-result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .no-results, .loading, .error {
+    padding: 10px;
+    color: #888;
+  }
+  
+  .loading {
+    color: #00f;
+  }
+  
+  .error {
+    color: red;
+  }
+  

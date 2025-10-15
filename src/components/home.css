@@ -1,0 +1,336 @@
+/*................... Top heading  General container styles.............. */
+.container-super {
+
+  background-color: var(--bg-primary-body-color);
+  max-width: 1300px;
+  margin-top: 100px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  list-style: none;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+/* Grid Layout for Cards */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+  justify-content: center;
+
+
+
+}
+
+.card {
+  border-radius: 1rem;
+  background-color: var(--bg-primary-body-color);
+  text-align: center;
+  color: var(--text-black);
+  box-shadow: var(--box-shadow-lg);
+  text-decoration: none;
+
+
+}
+.card:hover {
+  background: #f8f8f6;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  color: var(--link-color);
+  transition: all 0.3s ease;
+  /* Smooth hover effect */
+
+}
+
+.card h2:hover {
+  text-decoration: underline;
+
+}
+
+.card p {
+  font-size: .9rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-top: 5px;
+  color: var(--text-black);
+
+}
+/* Popular Cards Section */
+
+/*.................. General Styles for the Card......................... */
+.popular-card1 a {
+  display: flex;
+  align-items: center;
+  color: var(--link-color);
+  text-decoration: none;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 5px;
+  box-shadow: var(--box-shadow-lg);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.popular-card h2 {
+  color: var(--text-black);
+  margin:  0px 0px 10px 20px;
+}
+.popular-card1:hover {
+  transform: translateY(-2px);
+  /* Lift on hover */
+  box-shadow: var(--box-shadow-pl);
+  /* Stronger shadow */
+  text-decoration: underline;
+  color: var(--link-color);
+  
+  
+}
+
+.popular-card1 img {
+  height: 75px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+
+/* Card Content */
+.card-content {
+  flex-grow: 1;
+  padding-left: 20px;
+  /* Take remaining space */
+}
+
+
+
+.card-title {
+  font-size: 1.25rem;
+  /* Title font size */
+  font-weight: bold;
+  margin: 0;
+  color: var(--link-color);
+}
+
+.card-title .link {
+  text-decoration: none;
+  /* Remove underline */
+  /* color: #333; */
+  /* Default text color */
+  transition: color 0.3s ease;
+}
+
+.card-title .link:hover {
+  color: var(--link-color);
+  /* Highlight color on hover */
+}
+
+/* Optional Styling for Headline Classes */
+.headline {
+  font-family: 'Arial', sans-serif;
+  /* Base font */
+  line-height: 1.4;
+}
+
+.headline-4 {
+  font-size: 1.25rem;
+
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  
+
+  .popular-card1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .popular-card1 img {
+    margin-bottom: 10px;
+  }
+}
+
+/*................ grid-list1  Editor's Picks ............................*/
+.editor {
+  color: var(--text-black);
+  padding-top: 30px;
+  border-bottom: 4px solid var(--bg-secondary-body-color);
+
+}
+
+.grid-list1 ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  justify-content: center;
+  padding-top: 20px;
+  /* text-decoration: none; */
+  list-style: none;
+}
+
+.card1 {
+  border-radius: 1rem;
+  background-color: var(--bg-primary-body-color);
+  text-align: center;
+  color: var(--text-black);
+  box-shadow: var(--box-shadow-lg);
+  /* text-decoration: none; */
+  list-style: none;
+
+
+}
+
+.card1 a {
+  text-decoration: none;
+  /* color: var(--text-black); */
+}
+/* .img-cover{
+height: 200px;
+width: 200px;
+} */
+
+.card1 img {
+  width: 100%;
+  height: 200px;
+  min-height: 200px;
+  min-width: 200px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card1  h2 {
+  font-size: 1.3rem;
+  color: var(--link-color);
+  transition: all 0.3s ease;
+  /* Smooth hover effect */
+
+}
+
+.cord1  h2:hover {
+  text-decoration: underline;
+}
+
+.card1 p {
+  font-size: .9rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-top: 5px;
+
+}
+
+
+/* ..........Show More Button.................. */
+.btn2 {
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 8px 30px;
+  color: var(--text-white);
+  margin-inline: auto;
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+  margin-block-start: 15px;
+  background-color: #0774e8;
+  transition: background-color 0.3s ease;
+
+}
+
+.btn2:hover {
+  background-color: #052fe9;
+  color: white;
+}
+
+.btn-secondary {
+  padding: 8px 30px;
+  border-radius: 200px;
+}
+
+
+/*................ grid-list-Subjects ............................*/
+.subjects {
+  border-bottom: 4px solid var(--bg-secondary-body-color);
+  padding-top: 20px;
+
+}
+
+.subjectsH {
+
+  background-color: var(--bg-secondary-body-color);
+  max-width: max-content;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: var(--text-white);
+
+}
+
+.grid-list-subjects ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  justify-content: center;
+  padding-top: 20px;
+list-style: none;
+}
+
+.card1 a {
+  border-radius: 1rem;
+  background-color: var(--bg-primary-body-color);
+  text-align: center;
+  color: var(--text-black);
+  box-shadow: var(--box-shadow-lg);
+
+}
+
+.card1 img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+
+}
+
+.card1  h2 {
+  font-size: 1.3rem;
+  color: var(--link-color);
+}
+
+.cord1  h2:hover {
+  text-decoration: underline;
+}
+
+.card1 p {
+  font-size: .9rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-top: 5px;
+
+}

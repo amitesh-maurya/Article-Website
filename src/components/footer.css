@@ -1,0 +1,195 @@
+/* Container Styles */
+.subscription-container {
+    /* background: linear-gradient(135deg, #007bff, #6610f2); */
+    background-color: var(--bg-footer-color);
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    /* max-width: 1800px; */
+    margin: 20px 0 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title and Text */
+  .subscription-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .subscription-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .subscription-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 650px;
+    align-items: center;
+    margin: auto;
+  
+  }
+  
+  .subscription-input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .subscription-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: #ffffff;
+    border: solid 2px white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .subscription-button:hover {
+    background-color: var(--subscribe-btn-hover);
+    color: #fff;
+  }
+  .contact-policy1{
+    margin-top: 10px;
+  }
+
+    .contact-policy1 a{
+        color:  #007bff;
+        text-decoration: none;
+    }
+    .contact-policy1 a:hover {
+        text-decoration: underline;
+    }
+
+  /* Contact Note */
+  .contact-note1 {
+    font-size: 0.875rem;
+    color: var(--text-white);
+    text-align: center;
+    margin-top: 5px;
+  }
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .subscription-form {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .subscription-input {
+      width: 100%;
+  
+  
+    }
+  
+    .subscription-button {
+      width: 100%;
+      max-width: 115px;
+    }
+  }
+  
+  
+  /* ...........footer................ */
+  .site-footer {
+    background-color: var(--bg-footer-color);
+    color: #ddd;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-header {
+    text-align: center;
+  }
+  
+  .footer-header h2 {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .footer-header p {
+    font-size: 1rem;
+  }
+  
+  .footer-content {
+    max-width: 1400px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .footer-section .social-media a:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  .footer-bottom a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }

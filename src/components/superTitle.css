@@ -1,0 +1,38 @@
+/* SuperTitle Section */
+.super-title {
+  font-family: "Arial", sans-serif; /* Example font family */
+  color: var(--text-black); /* Text color for the title */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* Title Styling */
+.super-title h1 {
+  line-height: 1.2;
+font-weight: 800;
+  font-size: 3rem; /* Adjusted for large titles */
+  margin: 0px; /* Remove default margin */
+  display: inline-block; /* Keep inline for alignment */
+}
+
+/* Horizontal Line Under Title */
+.category {
+  border-top: 7px solid #0056b3;
+
+  width: 100%; /* Line width relative to the container */
+  border-radius: 5px; /* Rounded edges */
+  transition: width 0.3s ease-in-out;
+
+}
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 768px) {
+  .super-title h1 {
+    font-size: 2rem; /* Reduce font size */
+  }
+
+  .category-ScientistsHub {
+    width: 100%; /* Make the line smaller */
+  }
+}

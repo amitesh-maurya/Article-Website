@@ -1,0 +1,65 @@
+/* General Styles */
+.terms-container {
+    font-family: 'Arial', sans-serif;
+    background:var(--bg-primary-body-color);
+    color:var(--text-black);
+    margin: 150px auto;
+    max-width: 800px;
+  }
+  
+  
+  .terms-heading {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 10px;
+    color:var(--text-black);
+  }
+  
+  .terms-section {
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    /* max-width: 800px; */
+  }
+  
+  .section-heading {
+    font-size: 1.8em;
+    color:var(--text-black);
+    margin-bottom: 10px;
+  }
+  
+  .section-paragraph {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 15px 0;
+  }
+  
+  /* a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+   */
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .terms-heading {
+      font-size: 2em;
+    }
+  
+    .section-heading {
+      font-size: 1.6em;
+    }
+  
+    .section-paragraph {
+      font-size: 1em;
+    }
+  
+    .terms-section {
+      padding: 15px;
+    }
+  }
+  

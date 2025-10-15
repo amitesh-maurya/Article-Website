@@ -1,0 +1,48 @@
+/* Subscription Form Styling */
+.subscription-container1 {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .subscription-container1 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .email-input1 {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .subscribe-button1 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button1:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message1 {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .error-message1 {
+    color: red;
+    margin-top: 10px;
+  }
+  
