@@ -75,7 +75,7 @@ _Add screenshots or a demo GIF here to showcase the UI._
 ---
 
 ## 🌐 Live Demo  
-🔗 [Visit Scientists Hub](https://your-live-demo-link.com) _(update with actual link when deployed)_
+🔗 [Visit Scientists Hub](https://article-website-livid.vercel.app/) _(update with actual link when deployed)_
 
 ---
 
